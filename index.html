@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vetora Distribuição Veterinária | Atendimento (demo)</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color: #1f2937; background: #f7f9fb; }
+  header { background: #0b5d4b; color: #fff; padding: 20px 24px; }
+  header h1 { margin: 0; font-size: 22px; }
+  main { max-width: 760px; margin: 32px auto; padding: 0 24px; }
+  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 20px; margin-bottom: 16px; }
+  .card h2 { margin-top: 0; font-size: 18px; }
+  small { color: #6b7280; }
+</style>
+</head>
+<body>
+<header><h1>Vetora Distribuição Veterinária</h1></header>
+<main>
+  <div class="card">
+    <h2>Central de atendimento</h2>
+    <p>Consulte pedidos, segunda via de boleto e nota fiscal. Use o chat no canto da tela.</p>
+    <small>Página de demonstração. Dados fictícios.</small>
+  </div>
+  <div class="card">
+    <h2>Perguntas para testar</h2>
+    <ul>
+      <li>Onde está meu pedido?</li>
+      <li>Preciso da segunda via do boleto.</li>
+      <li>Quero falar com um atendente.</li>
+    </ul>
+  </div>
+</main>
+
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'pt_BR';
+
+			embeddedservice_bootstrap.init(
+				'00Dak00001UjJiI',
+				'SAC_Vetora_Web',
+				'https://trailsignup-a865c479c84382.my.site.com/ESWSACVetoraWeb1795638684124',
+				{
+					scrt2URL: 'https://trailsignup-a865c479c84382.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://trailsignup-a865c479c84382.my.site.com/ESWSACVetoraWeb1795638684124/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+</body>
+</html>
